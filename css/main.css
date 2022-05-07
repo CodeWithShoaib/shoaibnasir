@@ -1548,6 +1548,7 @@ figure:hover+span {
     }
     .sectionthree .grid-three-column{
     grid-template-columns: 1fr;
+
     }
     .sectioneight .box {
         width: 90%;
@@ -1601,6 +1602,12 @@ figure:hover+span {
         
         width: 86%;
         text-align: center;
+    }
+    .footer .container{
+        display: flex;
+        flex-direction: column;
+justify-content: center;
+align-items: center;
     }
 }
 
