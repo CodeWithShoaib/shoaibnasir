@@ -393,12 +393,14 @@ li {
 }
 
 /* <!-- =============sectiontwo start======================== --> */
-.sectiontwo{
+.sectiontwo {
     padding-top: 4rem;
 }
-.sectiontwo::last-child{
+
+.sectiontwo::last-child {
     margin-top: 8rem;
 }
+
 .sectiontwo .sectiontwo_inner_text {
     display: flex;
     flex-direction: column;
@@ -662,7 +664,8 @@ figure:hover+span {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
-.section ~ .sectionfive{
+
+.section~.sectionfive {
     padding: 0;
 }
 
@@ -850,6 +853,10 @@ figure:hover+span {
 
 /* <!-- =============sectionright start======================== --> */
 .sectioneight .box_top .inner_img {
+    width: 100%;
+}
+
+.sectioneight .box_top .inner_img img {
     width: 100%;
 }
 
@@ -1058,6 +1065,7 @@ figure:hover+span {
 .footer .container {
     padding: 5rem 4rem;
     gap: 3rem;
+    grid-template-columns: 1fr;
 }
 
 .footer .box {
@@ -1326,7 +1334,6 @@ figure:hover+span {
     .sectionfive .inner_text {
         gap: 0rem;
 
-        /* padding-bottom: 16rem; */
     }
 
     .sectionfive .box {
@@ -1358,7 +1365,7 @@ figure:hover+span {
     }
 
     .primary-btn {
-        width: 57%;
+        width: 40%;
 
     }
 
@@ -1368,6 +1375,18 @@ figure:hover+span {
 
     .footer__bottom p {
         width: 76%;
+    }
+
+    .footer {
+        height: 130rem;
+    }
+
+    .footer .overlap::after {
+        height: 130rem;
+    }
+
+    .footer .container {
+        height: 115rem;
     }
 }
 
@@ -1416,9 +1435,10 @@ figure:hover+span {
     .sectionone .right p {
         font-size: 1.7rem;
     }
-     .section  ~ .sectiontwo {
-        padding-top:4;
-        padding-bottom:0 ;
+
+    .section~.sectiontwo {
+        padding-top: 4;
+        padding-bottom: 0;
         margin-top: 2rem;
     }
 
@@ -1485,14 +1505,12 @@ figure:hover+span {
         flex-direction: row;
     }
 
-     
 
-
-
-    .footer .container{
+    .footer .container {
         height: auto;
     }
-    .footer .container{
+
+    .footer .container {
         gap: 6rem;
     }
 
@@ -1509,14 +1527,6 @@ figure:hover+span {
     .footer .overlap::after {
         height: 120rem;
     }
-
-
-
-
-
-
-
-
 
 
 
@@ -1539,23 +1549,28 @@ figure:hover+span {
     .container {
         width: 300px;
     }
+
     .main_text h2 {
         font-size: 3.4rem;
     }
+
     .word {
         font: 300 normal 4rem 'tahoma';
 
     }
-    .sectionthree .grid-three-column{
-    grid-template-columns: 1fr;
+
+    .sectionthree .grid-three-column {
+        grid-template-columns: 1fr;
 
     }
+
     .sectioneight .box {
         width: 90%;
         height: 49rem;
     }
+
     .sectioneight .box_bottom {
-        
+
         padding: 0 3rem;
         display: flex;
         flex-direction: row;
@@ -1565,49 +1580,87 @@ figure:hover+span {
     .footer {
         height: 130rem;
     }
+
     .footer .overlap::after {
         height: 130rem;
     }
-    .sectionfour .grid-four-column{
+
+    .sectionfour .grid-four-column {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
-    .overlap::after{
+
+    .overlap::after {
         height: 50rem;
     }
-    .sectionfour{
+
+    .sectionfour {
         height: 50rem;
     }
-    .sectionsix p{
+
+    .sectionsix p {
         font-size: 1.4rem;
         line-height: 2rem;
     }
-    .sectionseven .sectionseven_inner_text{
+
+    .sectionseven .sectionseven_inner_text {
         margin-top: 10rem;
     }
+
     .sectionsix {
 
         height: 50rem;
 
     }
+
+    .overlap::after {
+        height: 57rem;
+    }
+
+    .sectionfour {
+        height: 57rem;
+    }
+
+    .sectionsix {
+        height: 57rem;
+    }
+
     .sectionseven p {
         text-align: center;
         width: 76%;
     }
+
     .footer__bottom p {
         width: 90%;
         font-size: 1.3rem;
     }
+
     .sectiontwo p {
-        
+
         width: 86%;
         text-align: center;
     }
-    .footer .container{
+
+    .footer .container {
         display: flex;
         flex-direction: column;
-justify-content: center;
-align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .container {
+        padding: 5rem 19rem;
+        gap: 3rem;
+        grid-template-columns: 1fr;
+    }
+
+    .footer .left input {
+        width: 91%;
+    }
+
+    .footer .left textarea {
+        padding-left: 0rem;
+        /* width: 90%; */
     }
 }
 
