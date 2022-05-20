@@ -1065,7 +1065,7 @@ figure:hover+span {
 .footer .container {
     padding: 5rem 4rem;
     gap: 3rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .footer .box {
@@ -1372,6 +1372,11 @@ figure:hover+span {
     .footer p {
         font-size: 1.5rem;
     }
+    .footer .container {
+        padding: 5rem 4rem;
+        gap: 3rem;
+        grid-template-columns: 1fr;
+    }
 
     .footer__bottom p {
         width: 76%;
@@ -1533,18 +1538,6 @@ figure:hover+span {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 430px) {
     .container {
         width: 300px;
@@ -1660,7 +1653,9 @@ figure:hover+span {
 
     .footer .left textarea {
         padding-left: 0rem;
-        /* width: 90%; */
+    }
+    .primary-btn {
+        width: 60%;
     }
 }
 
