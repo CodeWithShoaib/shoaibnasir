@@ -162,6 +162,8 @@ li {
     grid-template-columns: 1fr 1fr;
     padding: 3rem 0;
     align-items: center;
+    position: absolute;
+    top:0;
 }
 
 .header .left h1 {
@@ -230,6 +232,7 @@ li {
 .banner {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20rem;
 }
 
@@ -1018,7 +1021,7 @@ figure:hover+span {
     background-color: var(--white);
     z-index: 9999999;
     position: relative;
-    height: 100vh;
+    height: fit-content;
     top: 10rem;
     margin: 0 auto;
 }
@@ -1648,7 +1651,7 @@ figure:hover+span {
     }
 
     .footer .left input {
-        width: 91%;
+        width: 100%;
     }
 
     .footer .left textarea {
